@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  /* color: var(--border); */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color:#fff;
+  --secondary-color:#000000;
+  --hover:#474d52;
+  --yellow: yellow;
+  --white: white;
+  --aqua: aqua;
+  --black: black;
+}
+
+
+
+.dark{
+  --active:#32d4d4;
+  --primary-color:#000000;
+  --secondary-color:#fff;
+  --hover:#6c747a;
+}
+
+.body{
+  background-color: var(--primary-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 13vh;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-name {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.nav img {
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0 15px;
+  transition: 0.5s ease;
+}
+
+.navbar li:hover{
+  
+  transform: translateY(-3px);
+}
+
+.navbar li a:hover {
+  color: var(--hover);
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.6s ease;
+  font-size: 1.17rem;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.bars{
+  color: var(--secondary-color);
+}
+
+.line {
+  background-color: var(--white);
+  height: 4px;
+  width: 25px;
+  border-radius: 7px;
+  margin: 1.5px;
+}
+
+.hero {
+  height: 75vh;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-txt {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.dark-m{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.active{
+  color: #5aaaaa !important;
+}
+
+.nav-hr{
+  color: var(--secondary-color);
+}
+
+.btn-contact{
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(65, 130, 206);
+}

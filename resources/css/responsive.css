@@ -1,0 +1,29 @@
+@media only screen and (max-width: 475px) {
+    .burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .nav {
+      height: 10vh;
+      transition: 0.5s ease;
+    }
+  
+    .navbar {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .navbar li {
+      padding: 10px 15px;
+    }
+  
+    .resp {
+      display: block;
+    }
+  
+    .nav-resp {
+      height: 27vh;
+    }
+  }
