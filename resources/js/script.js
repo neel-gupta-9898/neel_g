@@ -46,4 +46,4 @@ else if(theme == "light") {
 }
 
 
-setInterval(getVal, 10);
+setInterval(getVal, 300);
