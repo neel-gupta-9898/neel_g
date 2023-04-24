@@ -34,12 +34,13 @@
   position: sticky;
   top: 0;
   left: 0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 13vh;
+  height: 12vh;
 }
 
 .nav-head {
@@ -111,9 +112,18 @@
   align-items: center;
 }
 
+.hero-body{
+    
+}
+
 .hero-txt {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
+  color: var(--secondary-color);
+}
+
+.hero-des {
+  font-size: 1.2rem;
   color: var(--secondary-color);
 }
 
@@ -135,4 +145,12 @@
   border: 2px solid transparent;
   border-radius: 5px;
   background-color: rgb(65, 130, 206);
+}
+
+.btn-hero{
+    padding: 5px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(65, 130, 206);
+  color:var(--secondary-color);
 }
